@@ -18,4 +18,7 @@ namespace Subjects {
       }
     }
   }
+
+  // Create and export a constant react for React Subjects
+  export const react = new React();
 }

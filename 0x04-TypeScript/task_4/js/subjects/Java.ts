@@ -18,4 +18,7 @@ namespace Subjects {
       }
     }
   }
+
+  // Create and export a constant java for Java Subjects
+  export const java = new Java();
 }

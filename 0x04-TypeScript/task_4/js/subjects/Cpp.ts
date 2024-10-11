@@ -18,4 +18,7 @@ namespace Subjects {
       }
     }
   }
+
+  // Create and export a constant cpp for Cpp Subjects
+  export const cpp = new Cpp();
 }

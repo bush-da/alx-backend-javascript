@@ -67,7 +67,7 @@ class StudentClass implements StudentClassInterface {
     }
 
     displayName(): string {
-	return `${firstName}`;
+	return `${this.firstName}`;
     }
 }
 

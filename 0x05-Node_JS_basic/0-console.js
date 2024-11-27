@@ -1,5 +1,9 @@
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ */
 function displayMessage(message) {
-    process.stdout.write(message + '\n'); // Print the message followed by a newline
+    process.stdout.write(message + '\n');
 }
 
-module.exports = displayMessage; // Export the function for use in other files
+module.exports = displayMessage;
